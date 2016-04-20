@@ -1,0 +1,9 @@
+<keymap version="1" name="Default copy" parent="$default">
+  <action id="SearchEverywhere">
+    <keyboard-shortcut first-keystroke="shift space" />
+  </action>
+  <action id="SurroundWith">
+    <keyboard-shortcut first-keystroke="ctrl alt t" />
+    <keyboard-shortcut first-keystroke="shift ctrl s" />
+  </action>
+</keymap>
