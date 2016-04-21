@@ -1,20 +1,4 @@
 <application>
-  <component name="AppInspectionProfilesVisibleTreeState">
-    <entry key="Default">
-      <profile-state>
-        <expanded-state>
-          <State>
-            <id />
-          </State>
-        </expanded-state>
-        <selected-state>
-          <State>
-            <id>Android</id>
-          </State>
-        </selected-state>
-      </profile-state>
-    </entry>
-  </component>
   <component name="CvsApplicationLevelConfiguration">
     <option name="EXT_CONFIGURATION">
       <value>
@@ -51,7 +35,7 @@
         <option name="PATH_TO_PPK" value="" />
       </value>
     </option>
-    <option name="PATH_TO_PASSWORD_FILE" />
+    <option name="PATH_TO_PASSWORD_FILE" value="$userdir/.cvspass" />
     <option name="TIMEOUT" value="10" />
     <option name="MAKE_CHECKED_OUT_FILES_READONLY" value="false" />
     <option name="CHECKOUT_PRUNE_EMPTY_DIRECTORIES" value="true" />
@@ -114,25 +98,21 @@
       <option name="PATTERN" value="org.springsource.loaded.*" />
       <option name="ENABLED" value="true" />
     </filter>
-    <filter>
-      <option name="PATTERN" value="javassist.*" />
-      <option name="ENABLED" value="true" />
-    </filter>
-    <filter>
-      <option name="PATTERN" value="org.apache.webbeans.*" />
-      <option name="ENABLED" value="true" />
-    </filter>
-    <filter>
-      <option name="PATTERN" value="com.ibm.ws.*" />
-      <option name="ENABLED" value="true" />
-    </filter>
+  </component>
+  <component name="ImportConfiguration">
+    <option name="VENDOR" />
+    <option name="RELEASE_TAG" />
+    <option name="LOG_MESSAGE" />
+    <option name="CHECKOUT_AFTER_IMPORT" value="true" />
+    <option name="KEYWORD_SUBSTITUTION_WRAPPERS" value="" />
+    <option name="MAKE_NEW_FILES_READ_ONLY" value="false" />
   </component>
   <component name="RecentTaskRepositories">
     <GitHub shared="false" url="https://github.com">
       <option name="assignedIssuesOnly" value="false" />
       <commitMessageFormat>{id} {summary}</commitMessageFormat>
       <password />
-      <token>df99dfcbdf9cdf9edfcfdf93df9cdfc8df9bdf99df9fdf9ddf93dfc9df93dfc8df9bdf99df9adf9cdf9adf9fdf98dfcbdf98df93dfc8dfcfdf98df92dfccdf9cdfc9df9edf93df9cdfccdfc9df9adf99</token>
+      <token>df93df99df9ddf9ddfccdfcbdf98dfcfdfcedf9cdf9fdf99df93df9edfccdfc9df9fdf9edfc9df98dfcbdf9fdfccdfcedfcedf9ddf99dfcbdf9fdfcbdf9fdfcbdf9fdf9ddfc8dfccdf9adfcfdf9ddf9c</token>
       <option name="loginAnonymously" value="false" />
       <option name="preferredCloseTaskState" />
       <option name="preferredOpenTaskState" />
